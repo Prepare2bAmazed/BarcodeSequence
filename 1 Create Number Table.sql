@@ -1,3 +1,6 @@
+/*
+    This will create a table with 1 million records
+*/
 BEGIN TRAN
 
 IF OBJECT_ID('dbo.Number') IS NOT NULL

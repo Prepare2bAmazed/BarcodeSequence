@@ -1,3 +1,6 @@
+/*
+    For the given sequence, find the missing barcode IDs
+*/
 DECLARE
     @seqDate DATE = '1/05/2025',
     @letter CHAR = 'X',

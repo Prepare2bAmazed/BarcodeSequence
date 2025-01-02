@@ -1,3 +1,7 @@
+/*
+    Create a basic claim table and document table with a claim ID in the document table
+    Then add a specific quantity of claim and document records
+*/
 BEGIN TRAN
 
 DECLARE 
@@ -77,7 +81,9 @@ FROM dbo.Claim
 ) c
 ON d.ID = c.DocumentID
 
-
+/*
+    Randomly delete 3 percent of the documents so we have gaps in the sequence
+*/
 DECLARE @quantityToDelete INT = @quantity * 0.03
 
 DELETE dbo.Document
