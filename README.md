@@ -1,4 +1,4 @@
-This is a recreation of a problem I needed to solve for a Docuent Imaging Manager. Notes are in each SQL script to further elaborate.
+This is a recreation of a problem I needed to solve for a Document Imaging Manager. Notes are in each SQL script to further elaborate.
 
 The problem:
 
